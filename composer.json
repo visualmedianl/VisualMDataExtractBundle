@@ -1,7 +1,7 @@
 {
     "name": "visualmedia/data_extract_bundle",
     "description": "Symfony2 bundle that helps extending Bundles",
-	"license" : "GPL-2.0"
+	"license" : "GPL-2.0",
     "authors": [
         {
             "name": "VisualMedia",

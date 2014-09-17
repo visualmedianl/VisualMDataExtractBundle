@@ -1,0 +1,22 @@
+{
+    "name": "visualmedia/data_extract_bundle",
+    "description": "Symfony2 bundle that helps extending Bundles",
+	"license" : "GPL-2.0"
+    "authors": [
+        {
+            "name": "VisualMedia",
+            "email": "info@visualmedia.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/symfony": "~2.4",
+		"doctrine/doctrine-bundle": "~1.2",
+		"doctrine/orm": "~2.4.2"
+    },
+	"autoload": {
+        "psr-4": { 
+            "VisualM\\DataExtractBundle\\": "src/VisualM/DataExtractBundle/" 
+        }
+    }
+}

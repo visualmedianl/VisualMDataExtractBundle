@@ -114,7 +114,7 @@ With the DictionaryCollector it is possible to list all fields that are provided
 	//   4 => string 'page.title'
 
 	// List fields of specific type(s)
-	var_dump($dict_collector->getAvailableFields([ TypeEnum::DATETIME));
+	var_dump($dict_collector->getAvailableFields([ TypeEnum::DATETIME ]));
 
 	// Returns:
 	//

@@ -170,8 +170,8 @@ With the DataCollector it is possible to extract data from multiple objects/enti
 	$data_collector = $this->get('visualm.data.data_collector');
 
 	// Push objects into collector
-	$data_collector->collectObject($page);
-	$data_collector->collectObject($page2);
+	$data_collector->pushObject($page);
+	$data_collector->pushObject($page2);
 
 	// Get all collected data of type DATETIME and STRING, prevering DATETIME
 	$data = $data_collector->getCollected($page, [ TypeEnum::DATETIME, TypeEnum::STRING ]);

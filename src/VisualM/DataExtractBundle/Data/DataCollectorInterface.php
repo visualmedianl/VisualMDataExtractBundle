@@ -24,7 +24,7 @@ interface DataCollectorInterface
      *
      * @return void
      */
-    public function addObject($object, $ignoreNull = true);
+    public function pushObject($object, $ignoreNull = true);
 
     /**
      * Collect Data for Single Object

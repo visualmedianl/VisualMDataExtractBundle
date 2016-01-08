@@ -61,7 +61,7 @@ class DictionaryCollector implements DictionaryCollectorInterface, CacheWarmerIn
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function addProvider(\VisualM\DataExtractBundle\Provider\DataProviderInterface $provider, $cachable = true)
     {
@@ -69,7 +69,7 @@ class DictionaryCollector implements DictionaryCollectorInterface, CacheWarmerIn
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getProviders()
     {
@@ -82,7 +82,7 @@ class DictionaryCollector implements DictionaryCollectorInterface, CacheWarmerIn
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getDoctrineProvidedFields()
     {
@@ -113,7 +113,7 @@ class DictionaryCollector implements DictionaryCollectorInterface, CacheWarmerIn
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getAvailableFields(array $types = null)
     {
@@ -142,7 +142,7 @@ class DictionaryCollector implements DictionaryCollectorInterface, CacheWarmerIn
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function isOptional()
     {
@@ -153,7 +153,7 @@ class DictionaryCollector implements DictionaryCollectorInterface, CacheWarmerIn
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function warmUp($cacheDir)
     {

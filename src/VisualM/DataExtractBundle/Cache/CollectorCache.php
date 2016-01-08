@@ -49,7 +49,7 @@ class CollectorCache implements CollectorCacheInterface, CacheClearerInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function hasCache()
     {
@@ -65,7 +65,7 @@ class CollectorCache implements CollectorCacheInterface, CacheClearerInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getCache()
     {
@@ -82,7 +82,7 @@ class CollectorCache implements CollectorCacheInterface, CacheClearerInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function storeInCache($fieldConfiguration)
     {
@@ -96,7 +96,7 @@ class CollectorCache implements CollectorCacheInterface, CacheClearerInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function clearCache()
     {
@@ -107,7 +107,7 @@ class CollectorCache implements CollectorCacheInterface, CacheClearerInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function clear($cacheDir)
     {

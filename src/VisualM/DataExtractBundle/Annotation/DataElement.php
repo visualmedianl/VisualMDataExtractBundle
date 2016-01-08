@@ -40,7 +40,7 @@ class DataElement implements DataElementInterface
     protected $getter;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function __construct(array $values)
     {
@@ -130,7 +130,7 @@ class DataElement implements DataElementInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getFields()
     {
@@ -138,7 +138,7 @@ class DataElement implements DataElementInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getType()
     {
@@ -146,7 +146,7 @@ class DataElement implements DataElementInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getGetter()
     {

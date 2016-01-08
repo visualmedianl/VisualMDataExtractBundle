@@ -48,7 +48,7 @@ class DataCollector implements DataCollectorInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function pushObject($object, $ignoreNull = true)
     {
@@ -61,7 +61,7 @@ class DataCollector implements DataCollectorInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getForSingleObject($object, $types = [ TypeEnum::STRING ], $ignoreNull = true)
     {
@@ -115,7 +115,7 @@ class DataCollector implements DataCollectorInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getCollected($types = [ TypeEnum::STRING ])
     {
@@ -133,7 +133,7 @@ class DataCollector implements DataCollectorInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function clearCollected()
     {

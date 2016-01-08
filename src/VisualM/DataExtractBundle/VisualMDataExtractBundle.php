@@ -18,7 +18,7 @@ use VisualM\DataExtractBundle\DependencyInjection\Compiler\AddDataProvidersCompi
 class VisualMDataExtractBundle extends Bundle
 {
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function build(ContainerBuilder $container)
     {

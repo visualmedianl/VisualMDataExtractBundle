@@ -16,13 +16,13 @@ services:
     visualm.data.dictionary_collector:
         class: '%visualm.data.dictionary_collector.class%'
         arguments:
-            - @annotation_reader
-            - @doctrine.orm.entity_manager
-            - @visualm.data.cache.collector_cache
+            - "@annotation_reader"
+            - "@doctrine.orm.entity_manager"
+            - "@visualm.data.cache.collector_cache"
         tags:
             - { name: kernel.cache_warmer, priority: 0 }
 
     visualm.data.data_collector:
         class: '%visualm.data.data_collector.class%'
         arguments:
-            - @visualm.data.dictionary_collector
+            - "@visualm.data.dictionary_collector"
